@@ -1,9 +1,8 @@
 import React from 'react';
 
 const TabButton = (props) => (
-    <div className=
-        {props.tabName}
-        onClick={() => props.changeTab(props.constName)}
+    <div className={'button '+ props.dir}
+        onClick={() => props.changeTab(props.des)}
     >
         {props.name}
     </div>
