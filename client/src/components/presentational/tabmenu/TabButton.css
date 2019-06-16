@@ -4,9 +4,14 @@
     font-size: 1.7rem;
 }
 
-.button:hover { 
-    border-bottom: solid 2px rgb(163, 224, 248);
-    color: rgb(163, 224, 248);
+.button:hover {
+    border: 2px solid rgb(163, 224, 248);
+    background-color: white;
+    color: rgb(16, 50, 63);
+}
+
+.button.left {
+    margin-right: 20vw;
 }
 
 .button.left:before {
@@ -16,6 +21,10 @@
     content: '';
     position: absolute;
         left: -.8em;
+}
+
+.button.right {
+    margin-left: 20vw;
 }
 
 .button.right:after {

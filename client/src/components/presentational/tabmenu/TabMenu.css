@@ -12,20 +12,20 @@
 #tab-menu__currTab {
     color: white;
     font-size: 2.5rem;
-    text-align: center;
-    width: 30vw;
+    position: absolute;
+    margin: auto;
 }
 
 #tab-menu__currTab:before{
-    border-top: .2em solid red;
+    border-top: .2em solid rgba(243, 159, 159, 0.719);
     border-right: .2em solid transparent;
-    border-bottom: .2em solid red;
+    border-bottom: .2em solid rgba(243, 159, 159, 0.719);
     content: '';
 }
 
 #tab-menu__currTab:after {
-    border-top: .2em solid red;
-    border-bottom: .2em solid red;
+    border-top: .2em solid rgba(243, 159, 159, 0.719);
+    border-bottom: .2em solid rgba(243, 159, 159, 0.719);
     border-left: .2em solid transparent;
     content: '';
 }
