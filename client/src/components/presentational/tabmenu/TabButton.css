@@ -1,0 +1,28 @@
+.button {
+    color: white;
+    position: relative;
+    font-size: 1.7rem;
+}
+
+.button:hover { 
+    border-bottom: solid 2px rgb(163, 224, 248);
+    color: rgb(163, 224, 248);
+}
+
+.button.left:before {
+    border-top: .5em solid transparent;
+    border-right: .5em solid beige;
+    border-bottom: .5em solid transparent;
+    content: '';
+    position: absolute;
+        left: -.8em;
+}
+
+.button.right:after {
+    border-top: .5em solid transparent;
+    border-bottom: .5em solid transparent;
+    border-left: .5em solid beige;
+    content: '';
+    position: absolute;
+        right: -.8em;
+}

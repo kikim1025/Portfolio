@@ -1,4 +1,5 @@
 import React from 'react';
+import './TabButton.css';
 
 const TabButton = (props) => (
     <div className={'button '+ props.dir}

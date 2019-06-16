@@ -1,8 +1,9 @@
 import React from 'react';
+import './TabMain.css';
 
-const TabMain = (props) => (
+const TabMain = () => (
     <div id='tab-main'>
-        main
+        
     </div>
 );
 
