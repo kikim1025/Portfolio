@@ -1,5 +1,5 @@
 #tab-projects {
-    background: url('process.env.PUBLIC_URL/img/background.svg');
+    background: url('/img/background.svg');
     min-height: 100vh;
     min-width: 100vw;
     position: relative;
