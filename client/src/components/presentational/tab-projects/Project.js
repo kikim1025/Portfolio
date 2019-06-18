@@ -1,4 +1,5 @@
 import React from 'react';
+import Modal from './Modal';
 import './Project.css';
 
 class Project extends React.Component {
@@ -14,7 +15,14 @@ class Project extends React.Component {
     render() {
         return (
             <div className='proj-box'>
-                <div className='proj'>
+                { this.state.modal 
+                    ?   <Modal title={this.props.proj.title} img={this.props.proj.img} 
+                            keywords={this.props.proj.keywords} desc={this.props.proj.desc} 
+                            github={this.props.proj.github} deployed={this.props.proj.deployed} 
+                            toggleModal={this.toggleModal} />
+                    :   ''
+                }
+                <div className='proj' onClick={() => this.toggleModal()}>
                     <div className='proj__title'>{this.props.proj.title}</div>
                 </div>
             </div>
