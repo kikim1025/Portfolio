@@ -14,7 +14,7 @@ export const PROJECTS_ARR = [
         title: 'React Calculator',
         img: 'rc.png',
         keywords: ['Frontend', 'React.js', 'Redux', 'Demo'],
-        desc: 'A frontend app, written to demonstarte React.js and Redux architecture and methodologies. This frontend app functions as a virtual calculator. The ',
+        desc: 'A frontend app, written to demonstarte React.js and Redux architecture and methodologies. This frontend app functions as a virtual calculator.',
         github: 'https://github.com/kikim1025/Reacting-Calculadora',
         deployed: 'https://kikim1025.github.io/Reacting-Calculadora/'
     },

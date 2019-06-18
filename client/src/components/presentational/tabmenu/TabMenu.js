@@ -9,7 +9,7 @@ const tabMenuSelector = (currTab, changeTab) => {
         case TAB_MAIN:
             return  <nav id='tab-menu'>
                         <TabButton dir='left' name='Contact' des={TAB_CONTACT} changeTab={changeTab} />
-                        <div id='tab-menu__currTab'>Main2</div>
+                        <div id='tab-menu__currTab'>Main</div>
                         <TabButton dir='right' name='Projects' des={TAB_PROJECTS} changeTab={changeTab} />
                     </nav>
         case TAB_PROJECTS:

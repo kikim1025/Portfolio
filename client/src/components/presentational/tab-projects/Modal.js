@@ -11,7 +11,7 @@ const Modal = (props) => (
         </div>
         <div className='modal-in'>
             <div className='modal__header'>{props.title}</div>
-            <div className='modal__img'><img src={'./img/' + props.img} alt='project image' /></div>
+            <div className='modal__img'><img src={'/img/' + props.img} alt='project image' /></div>
             <p className='modal__desc'>{props.desc}</p>
             <div className='modal__keywords'>
                 <div className='modal__keywords__header'>Keywords</div>
