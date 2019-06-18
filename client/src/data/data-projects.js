@@ -6,7 +6,7 @@ export const PROJECTS_ARR = [
         title: '{this}',
         img: 'this.png',
         keywords: ['Frontend', 'React.js', 'Redux', 'CSS3', 'SVG', 'Arts'],
-        desc: 'This website is a React.js Redux frontend app for my portfolio. This application demonstrates React.js Redux application architecture, and heavily uses arts and CSS styles. Background image is a SVG file, drawn by hand and inkscape for shasing. ',
+        desc: 'This website is a React.js Redux frontend app for my portfolio. This application demonstrates React.js Redux application architecture, and heavily uses arts and CSS styles. Background image is a SVG file, drawn by hand and inkscape. ',
         github: 'https://github.com/kikim1025/Portfolio',
         deployed: 'SOON'
     },
