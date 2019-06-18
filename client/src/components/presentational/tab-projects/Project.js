@@ -1,4 +1,5 @@
 import React from 'react';
+import './Project.css';
 
 class Project extends React.Component {
     // Local state for modal control
@@ -12,7 +13,11 @@ class Project extends React.Component {
     
     render() {
         return (
-            <div className='project'>{this.props.project.name}</div>
+            <div className='proj-box'>
+                <div className='proj'>
+                    <div className='proj__title'>{this.props.proj.title}</div>
+                </div>
+            </div>
         );
     };
 };
