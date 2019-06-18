@@ -1,9 +1,11 @@
 import React from 'react';
+import Contact from './Contact';
+import './TabContact.css';
 
-const TabDemo= (props) => (
-    <div>
-       contact tab should show
+const TabContact= () => (
+    <div id='tab-contact'>
+        <Contact />
     </div>
 )
 
-export default TabDemo;
+export default TabContact;

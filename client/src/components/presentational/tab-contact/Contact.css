@@ -1,0 +1,14 @@
+#contact {
+    font-size: 2rem;
+    position: absolute;
+        top: 30vh;
+        right: 0;
+        left: 0;
+    text-align: center;
+    margin: auto;
+}
+
+#contact a {
+    display: block;
+    text-decoration: none;
+}
