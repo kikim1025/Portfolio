@@ -1,5 +1,5 @@
 #tab-main {
-    background: url('../../../img/background.svg');
+    background: url('/img/background.svg');
     min-height: 100vh;
     min-width: 100vw;
     position: relative;
@@ -49,25 +49,25 @@
 
 .circle.background {
     animation: rotateCW 60s infinite linear;
-    background: url('../../../img/circle-background.svg');
+    background: url('/img/circle-background.svg');
 }
 .circle.outer {
     animation: rotateCCW 24s infinite linear;
-    background: url('../../../img/circle-outer.svg');
+    background: url('/img/circle-outer.svg');
 }
 
 .circle.middle {
     animation: rotateCW 23s infinite linear;
-    background: url('../../../img/circle-middle.svg');
+    background: url('/img/circle-middle.svg');
 }
 
 .circle.inner {
     animation: rotateCCW 18s infinite linear;
-    background: url('../../../img/circle-inner.svg');
+    background: url('/img/circle-inner.svg');
 }
 
 .circle.name {
-    background: url('../../../img/name.svg');
+    background: url('/img/name.svg');
 }
 
 @keyframes rotateCW {
