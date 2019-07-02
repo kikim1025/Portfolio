@@ -5,7 +5,7 @@ export const PROJECTS_ARR = [
     {
         title: '{this}',
         img: 'this.png',
-        keywords: ['Frontend', 'React.js', 'Redux', 'CSS3', 'SVG', 'SASS', 'Arts'],
+        keywords: ['Frontend', 'React.js', 'Redux', 'CSS3', 'SASS', 'SVG',],
         desc: 'This website is a React.js Redux frontend app for my portfolio. This application shows React.js Redux application architecture and uses personal arts and CSS styles. All SVG images, including the background, are drawn by hand and inkscape.',
         github: 'https://github.com/kikim1025/Portfolio',
         deployed: 'https://kikim1025.github.io/Portfolio/'
@@ -13,8 +13,8 @@ export const PROJECTS_ARR = [
     {
         title: 'React Calculator',
         img: 'rc.png',
-        keywords: ['Frontend', 'React.js', 'Redux', 'Demo'],
-        desc: 'A frontend app, written to demonstarte React.js and Redux architecture and methodologies. This frontend app functions as a virtual calculator. The Redux stores the math displayed on the screen and provides actions upon each button click to update the math. After each button clicks, the logic will determine whether or not the input is valid, and update the display accordingly with either results or error messages. In terms of components, Redux is connected to a CalculatorContainer component, thereby providing connection to the presentational sub-components which constructs the way the UI looks. Detailed explanations on React Redux architecture and logic are shown on the readme file on the github repository page.',
+        keywords: ['Frontend', 'React.js', 'Redux', 'Redux Middleware', 'Demo'],
+        desc: 'A simple frontend app, written to demonstarte React.js and Redux architecture and methodologies. This frontend app functions as a virtual calculator. The Redux stores the math displayed on the screen and provides actions upon each button click to update the math. Upon each button inputs, the redux middleware process and logic will determine whether or not current input is valid and update the display accordingly with either a result or an error message. In terms of components, Redux is connected to a CalculatorContainer component, thereby providing connection to the presentational sub-components which constructs the way the UI looks. Detailed explanations on React Redux architecture and logic are shown on the readme file on the github repository page.',
         github: 'https://github.com/kikim1025/Reacting-Calculadora',
         deployed: 'https://kikim1025.github.io/Reacting-Calculadora/'
     },
