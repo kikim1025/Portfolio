@@ -22,12 +22,14 @@ const tabSelector = (currTab) => {
 };
 
 const Tab = (props) => (
-    <article id='tab'>
-        {
-            tabSelector(props.currTab)
-        }
+    <div id='tab'>
+        <main>
+            {
+                tabSelector(props.currTab)
+            }
+        </main>
         <TabMenu currTab={props.currTab} changeTab={props.changeTab} />
-    </article>
+    </div>
 );
 
 export default Tab;

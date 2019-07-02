@@ -30,11 +30,11 @@ const tabMenuSelector = (currTab, changeTab) => {
 };
 
 const TabMenu = (props) => (
-    <div>
+    <header>
         {
             tabMenuSelector(props.currTab, props.changeTab)
         }
-    </div>
+    </header>
 );
 
 export default TabMenu;

@@ -3,9 +3,9 @@ import Contact from './Contact';
 import './TabContact.css';
 
 const TabContact= () => (
-    <div id='tab-contact'>
+    <section id='tab-contact'>
         <Contact />
-    </div>
+    </section>
 )
 
 export default TabContact;

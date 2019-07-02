@@ -4,13 +4,13 @@ import { PROJECTS_ARR } from '../../../data/data-projects';
 import './TabProjects.css';
 
 const TabProjects = () => (
-    <div id='tab-projects'>
+    <section id='tab-projects'>
         {
             PROJECTS_ARR.map((proj, index) => (
                 <Project proj={proj} key={index} />
             ))
         }
-    </div>
+    </section>
 );
 
 export default TabProjects;
