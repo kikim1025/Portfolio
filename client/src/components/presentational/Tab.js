@@ -4,7 +4,6 @@ import TabProjects from './tab-projects/TabProjects';
 import TabContact from './tab-contact/TabContact';
 import TabMenu from './tabmenu/TabMenu';
 import { TAB_MAIN, TAB_PROJECTS, TAB_CONTACT } from '../../constants/constants';
-import './Tab.css';
 
 // Presentational helper function to selectively present tabs
 // Refreshes tabs each time in current specification
@@ -22,7 +21,7 @@ const tabSelector = (currTab) => {
 };
 
 const Tab = (props) => (
-    <div id='tab'>
+    <div id='tab-box'>
         <main>
             {
                 tabSelector(props.currTab)

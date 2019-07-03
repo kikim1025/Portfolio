@@ -1,5 +1,4 @@
 import React from 'react';
-import './Contact.css';
 
 // Might add styles to each specific id later...
 const Contact= () => (

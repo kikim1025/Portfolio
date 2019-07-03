@@ -1,7 +1,6 @@
 import React from 'react';
 import Project from './Project';
-import { PROJECTS_ARR } from '../../../data/data-projects';
-import './TabProjects.css';
+import { PROJECTS_ARR } from '../../../assets/data/data-projects';
 
 const TabProjects = () => (
     <section id='tab-projects'>

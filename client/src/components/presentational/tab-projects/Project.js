@@ -1,6 +1,5 @@
 import React from 'react';
 import Modal from './Modal';
-import './Project.css';
 
 class Project extends React.Component {
     // Local state for modal control

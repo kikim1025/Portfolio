@@ -1,7 +1,6 @@
 import React from 'react';
 import TabButton from './TabButton';
 import { TAB_MAIN, TAB_PROJECTS, TAB_CONTACT} from '../../../constants/constants';
-import './TabMenu.css';
 
 // Presentational helper function to change tabmenu
 const tabMenuSelector = (currTab, changeTab) => {

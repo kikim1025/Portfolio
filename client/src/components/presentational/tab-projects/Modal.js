@@ -1,15 +1,14 @@
 import React from 'react';
-import './Modal.css';
 
 const Modal = (props) => (
-    <article className='modal'>
+    <article className='modal-box'>
         <section className='modal-out' onClick={() => props.toggleModal()}>
-            <div className='top'></div>
-            <div className='right'></div>
-            <div className='bottom'></div>
-            <div className='left'></div>
+            <div className='modal-out__top'></div>
+            <div className='modal-out__right'></div>
+            <div className='modal-out__bottom'></div>
+            <div className='modal-out__left'></div>
         </section>
-        <section className='modal-in'>
+        <section className='modal'>
             <div className='modal__header'>{props.title}</div>
             <figure className='modal__img'><img src={process.env.PUBLIC_URL + '/img/' + props.img} alt='project image' /></figure>
             <p className='modal__desc'>{props.desc}</p>
