@@ -21,8 +21,8 @@ const Modal = (props) => (
                 }
             </div>
             <div className='modal__links'>
-                <a href={props.deployed} target='_blank'>Deployed Site</a>
-                <a href={props.github} target='_blank'>Github Link</a>
+                <a href={props.deployed} target='_blank' rel='noopener noreferrer'>Deployed Site</a>
+                <a href={props.github} target='_blank' rel='noopener noreferrer'>Github Link</a>
             </div>
         </section>
     </article>
