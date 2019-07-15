@@ -19,11 +19,11 @@ export const PROJECTS_ARR = [
         deployed: 'https://kikim1025.github.io/Reacting-Calculadora/'
     },
     {
-        title: 'Sticky Messages',
-        img: 'sticky-messages.png',
-        keywords: ['MERN', 'Full Stack', 'RESTful API', 'React.js', 'Node.js', 'Express.js', 'MongoDB'],
-        desc: 'A MERN full-stack app that users can post sticky-messages to each other. This application primarily uses Node.js, Express.js, React.js and MongoDB to deploy a website users can log in and post messages to another user in a message board. On the backend, server is created using Node.js and Express.js, using RESTful API to communicate with client. MongoDB contains user data such as login, password, or user messages and their contents. The backend uses NPM packets such as Bcrypt to encrypt user passwords, and JSON Web Token for user authentification. On the frontend, the client code is written using React.js, using a sticky post-it themed style for each messages.',
-        github: 'https://github.com/kikim1025/Sticky-Messages',
-        deployed: 'https://sticky-messages.herokuapp.com/'
+        title: 'Company Hunter',
+        img: 'company-hunter.png',
+        keywords: ['MERN', 'Full Stack', 'RESTful API', 'React.js', 'Redux', 'Redux Thunk', 'Node.js', 'Express.js', 'MongoDB'],
+        desc: 'A MERN full stack app. App is used to view the list of companies, create a new company, edit a company data, and delete each data. On frontend, React is used for a SPA, and Redux is used to store retrieved company data array and modal data for specific chosen company for creating or editing. Redux Thunk middleware and Axios are used for the communication between client and server. On backend, Node.js is used with Express.js in RESTful API to host a server, saving company data in MongoDB.',
+        github: 'https://github.com/kikim1025/Company-Hunter',
+        deployed: 'https://cryptic-brook-28508.herokuapp.com/'
     }
 ];
