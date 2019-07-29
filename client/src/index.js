@@ -7,3 +7,6 @@ import './style/style.css';
 ReactDOM.render(
     <BrowserRouter basename={process.env.PUBLIC_URL}><App /></BrowserRouter>, document.getElementById('root')
 );
+
+console.log('asdf');
+console.log(process.env.PUBLIC_URL);

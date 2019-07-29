@@ -2,7 +2,7 @@
   "name": "client",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://kikim1025.github.io/Portfolio/",
+  "homepage": "https://kikim1025.github.io/Portfolio",
   "dependencies": {
     "gh-pages": "^2.0.1",
     "react": "^16.8.6",
