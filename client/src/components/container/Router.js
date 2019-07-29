@@ -6,10 +6,10 @@ import Contact from '../presentational/Contact';
 
 const Router = () => (
     <Switch>
-        <Route exact path='/Main' component={Main} />
-        <Route exact path='/Projects' component={Projects} />
-        <Route exact path='/Contact' component={Contact} />
-        <Redirect to='/Main' />
+        <Route exact path='/Portfolio/Main' component={Main} />
+        <Route exact path='/Portfolio/Projects' component={Projects} />
+        <Route exact path='/Portfolio/Contact' component={Contact} />
+        <Redirect to='/Portfolio/Main' />
     </Switch>
 );
 
