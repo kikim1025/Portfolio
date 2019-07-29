@@ -6,6 +6,7 @@ const NavBar = (props) => {
 
     // Presentational helper function to change how navbar looks
     const navBarSelector = (location) => {
+        console.log(location)
         switch (location) {  
             case '/Portfolio/Projects':
                 return  <nav className='navbar'>
