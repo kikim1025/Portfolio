@@ -1,9 +1,9 @@
 import React from 'react';
 import Project from './Project';
-import { PROJECTS_ARR } from '../../../assets/data/data-projects';
+import { PROJECTS_ARR } from '../../assets/data/data-projects';
 
-const TabProjects = () => (
-    <section id='tab-projects'>
+const Projects = () => (
+    <section id='projects'>
         {
             PROJECTS_ARR.map((proj, index) => (
                 <Project proj={proj} key={index} />
@@ -12,4 +12,4 @@ const TabProjects = () => (
     </section>
 );
 
-export default TabProjects;
+export default Projects;

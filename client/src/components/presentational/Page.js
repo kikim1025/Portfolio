@@ -1,10 +1,12 @@
 import React from 'react';
-import TabContainer from '../container/TabContainer';
+import Router from '../container/Router';
+import NavBar from './NavBar';
 
 const Page = () => (
-    <div id='page'>
-        <TabContainer />
-    </div>
+    <main>
+        <Router />
+        <NavBar />
+    </main>
 );
 
 export default Page;

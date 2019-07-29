@@ -1,19 +1,6 @@
 $transparent-black: rgba(0, 0, 0, 0.65);
-$currtab-pink: rgba(243, 159, 159, 0.719);
-
-#tab-menu {
-    align-items: center;
-    background-color: $transparent-black;
-    display: flex;
-    height: 15vh;
-    width: 100vw;
-    justify-content: center;
-    position: absolute;
-    bottom: 0px;
-}
 
 .button {
-    color: white;
     cursor: pointer;
     position: relative;
     font-size: 1.7rem;
@@ -21,7 +8,15 @@ $currtab-pink: rgba(243, 159, 159, 0.719);
     &:hover {
         border: 2px solid rgb(163, 224, 248);
         background-color: white;
-        color: rgb(16, 50, 63);
+    }
+
+    &__link {
+        color: white;
+        text-decoration: none;
+
+        &:hover {
+            color: rgb(16, 50, 63);
+        }
     }
 }
 
@@ -68,26 +63,5 @@ $currtab-pink: rgba(243, 159, 159, 0.719);
         position: absolute;
         top: .2em;
         right: -.6em;
-    }
-}
-
-#tab-menu__currTab {
-    color: white;
-    font-size: 2.5rem;
-    position: absolute;
-    margin: auto;
-    
-    &:before{
-        border-top: .2em solid $currtab-pink;
-        border-right: .2em solid transparent;
-        border-bottom: .2em solid $currtab-pink;
-        content: '';
-    }
-    
-    &:after {
-        border-top: .2em solid $currtab-pink;
-        border-bottom: .2em solid $currtab-pink;
-        border-left: .2em solid transparent;
-        content: '';
     }
 }

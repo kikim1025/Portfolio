@@ -1,10 +1,10 @@
-#tab-main {
+main {
   background: url("../assets/img/background.svg");
   min-height: 100vh;
   min-width: 100vw;
   position: relative;
 }
-#tab-main .circle {
+main .circle {
   height: 170vh;
   width: 170vh;
   margin: auto;
@@ -14,62 +14,62 @@
   right: 0;
 }
 @media (max-aspect-ratio: 17/10) {
-  #tab-main .circle {
+  main .circle {
     top: -35vh;
     height: 150vh;
     width: 150vh;
   }
 }
 @media (max-aspect-ratio: 29/20) {
-  #tab-main .circle {
+  main .circle {
     top: -25vh;
     height: 130vh;
     width: 130vh;
   }
 }
 @media (max-aspect-ratio: 5/4) {
-  #tab-main .circle {
+  main .circle {
     top: -15vh;
     height: 110vh;
     width: 110vh;
   }
 }
 @media (max-aspect-ratio: 1/1) {
-  #tab-main .circle {
+  main .circle {
     top: -5vw;
     height: 100vw;
     width: 100vw;
   }
 }
-#tab-main .circle-background {
+main .circle-background {
   -webkit-animation: rotateCW 60s infinite linear;
   -moz-animation: rotateCW 60s infinite linear;
   -ms-animation: rotateCW 60s infinite linear;
   animation: rotateCW 60s infinite linear;
   background: url("../assets/img/circle-background.svg");
 }
-#tab-main .circle-outer {
+main .circle-outer {
   -webkit-animation: rotateCCW 24s infinite linear;
   -moz-animation: rotateCCW 24s infinite linear;
   -ms-animation: rotateCCW 24s infinite linear;
   animation: rotateCCW 24s infinite linear;
   background: url("../assets/img/circle-outer.svg");
 }
-#tab-main .circle-middle {
+main .circle-middle {
   -webkit-animation: rotateCW 23s infinite linear;
   -moz-animation: rotateCW 23s infinite linear;
   -ms-animation: rotateCW 23s infinite linear;
   animation: rotateCW 23s infinite linear;
   background: url("../assets/img/circle-middle.svg");
 }
-#tab-main .circle-inner {
+main .circle-inner {
   -webkit-animation: rotateCCW 18s infinite linear;
   -moz-animation: rotateCCW 18s infinite linear;
   -ms-animation: rotateCCW 18s infinite linear;
   animation: rotateCCW 18s infinite linear;
   background: url("../assets/img/circle-inner.svg");
 }
-#tab-main .circle-name {
+main .circle-name {
   background: url("../assets/img/name.svg");
 }
 @keyframes rotateCW {
@@ -260,20 +260,20 @@
   right: 1vw;
 }
 
-#tab-projects {
+#projects {
   background: url("../assets/img/background.svg");
   min-height: 100vh;
   min-width: 100vw;
   position: relative;
 }
 
-#tab-contact {
+#contact {
   background: url("../assets/img/background.svg");
   min-height: 100vh;
   min-width: 100vw;
   position: relative;
 }
-#tab-contact #contact {
+#contact #contact-box {
   font-size: 2rem;
   position: absolute;
   top: 30vh;
@@ -282,12 +282,12 @@
   text-align: center;
   margin: auto;
 }
-#tab-contact #contact a {
+#contact #contact-box a {
   display: block;
   text-decoration: none;
 }
 
-#tab-menu {
+.navbar {
   align-items: center;
   background-color: rgba(0, 0, 0, 0.65);
   display: flex;
@@ -298,8 +298,26 @@
   bottom: 0px;
 }
 
-.button {
+#navbar__name {
   color: white;
+  font-size: 2.5rem;
+  position: absolute;
+  margin: auto;
+}
+#navbar__name:before {
+  border-top: 0.2em solid rgba(243, 159, 159, 0.719);
+  border-right: 0.2em solid transparent;
+  border-bottom: 0.2em solid rgba(243, 159, 159, 0.719);
+  content: "";
+}
+#navbar__name:after {
+  border-top: 0.2em solid rgba(243, 159, 159, 0.719);
+  border-bottom: 0.2em solid rgba(243, 159, 159, 0.719);
+  border-left: 0.2em solid transparent;
+  content: "";
+}
+
+.button {
   cursor: pointer;
   position: relative;
   font-size: 1.7rem;
@@ -307,6 +325,12 @@
 .button:hover {
   border: 2px solid #a3e0f8;
   background-color: white;
+}
+.button__link {
+  color: white;
+  text-decoration: none;
+}
+.button__link:hover {
   color: #10323f;
 }
 
@@ -352,29 +376,10 @@
   right: -0.6em;
 }
 
-#tab-menu__currTab {
-  color: white;
-  font-size: 2.5rem;
-  position: absolute;
-  margin: auto;
-}
-#tab-menu__currTab:before {
-  border-top: 0.2em solid rgba(243, 159, 159, 0.719);
-  border-right: 0.2em solid transparent;
-  border-bottom: 0.2em solid rgba(243, 159, 159, 0.719);
-  content: "";
-}
-#tab-menu__currTab:after {
-  border-top: 0.2em solid rgba(243, 159, 159, 0.719);
-  border-bottom: 0.2em solid rgba(243, 159, 159, 0.719);
-  border-left: 0.2em solid transparent;
-  content: "";
-}
-
 body {
   margin: 0;
 }
-body #tab-box {
+body main {
   height: 100vh;
   width: 100vw;
   position: fixed;

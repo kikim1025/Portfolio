@@ -3,10 +3,10 @@
 // Data for projects tab
 export const PROJECTS_ARR = [
     {
-        title: '{this}',
+        title: 'this',
         img: 'this.png',
-        keywords: ['Frontend', 'React.js', 'Redux', 'CSS3', 'SASS', 'SVG',],
-        desc: 'This website is a React.js Redux frontend app for my portfolio. This application shows React.js Redux application architecture and uses personal arts and CSS styles. All SVG images, including the background, are drawn by hand and inkscape.',
+        keywords: ['Frontend', 'React.js', 'React Router', 'CSS3', 'SASS', 'SVG',],
+        desc: 'This website is a React.js frontend app for my portfolio. This application shows React.js with React Router architecture and uses personal arts and CSS styles. React Router manages main, projects, and contact tabs, routing and redirecting based on URL. All SVG images, including the background, are drawn by hand and inkscape.',
         github: 'https://github.com/kikim1025/Portfolio',
         deployed: 'https://kikim1025.github.io/Portfolio/'
     },
@@ -21,7 +21,7 @@ export const PROJECTS_ARR = [
     {
         title: 'Company Hunter',
         img: 'company-hunter.png',
-        keywords: ['MERN', 'Full Stack', 'RESTful API', 'React.js', 'Redux', 'Redux Thunk', 'Node.js', 'Express.js', 'MongoDB'],
+        keywords: ['Full Stack', 'RESTful API', 'React.js', 'Redux', 'Redux Thunk', 'Node.js', 'Express.js', 'MongoDB'],
         desc: 'A MERN full stack app. App is used to view the list of companies, create a new company, edit a company data, and delete each data. On frontend, React is used for a SPA, and Redux is used to store retrieved company data array and modal data for specific chosen company for creating or editing. Redux Thunk middleware and Axios are used for the communication between client and server. On backend, Node.js is used with Express.js in RESTful API to host a server, saving company data in MongoDB.',
         github: 'https://github.com/kikim1025/Company-Hunter',
         deployed: 'https://cryptic-brook-28508.herokuapp.com/'

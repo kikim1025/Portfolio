@@ -1,12 +1,13 @@
-@import 'TabMain';
-@import 'TabProjects';
-@import 'TabContact';
-@import 'TabMenu';
+@import 'Main';
+@import 'Projects';
+@import 'Contact';
+@import 'NavBar';
+@import 'Button';
 
 body {
     margin: 0;
 
-    #tab-box {
+    main {
         height: 100vh;
         width: 100vw;
         position: fixed;    
